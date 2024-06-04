@@ -13,15 +13,9 @@ module.exports = {
   },
   networks: {
     zksync_testnet: {
-      url: "https://zksync2-testnet.zksync.dev",
-      ethNetwork: "goerli",
-      chainId: 280,
-      zksync: true,
-    },
-    zksync_mainnet: {
-      url: "https://zksync2-mainnet.zksync.io/",
-      ethNetwork: "mainnet",
-      chainId: 324,
+      url: "https://rpc.sepolia.mantle.xyz",
+      ethNetwork: "Mantle Sepolia Testnet",
+      chainId: 5003,
       zksync: true,
     },
   },
